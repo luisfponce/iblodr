@@ -1,0 +1,13 @@
+Images Build using Other Docker Repositories
+
+This repository is intended to demonstrate how docker images behaves when are
+pushed to Docker Hub and a container called "A" is used to built up another
+solution called "B".
+
+e.g.
+
+Built image A
+Build another image from image "A" and add another layer.
+
+POC:
+Demonstrate whether All `docker pull B:tag` ends up increasing the number of pulls in image "A"
